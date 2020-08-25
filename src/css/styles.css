@@ -20,6 +20,11 @@ ul,li, body{
     padding: 0;
 }
 
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .card{
     background-color: #FFF;
@@ -70,6 +75,8 @@ ul,li, body{
     margin: 0 auto;
 }
 
+.card__person--container{ justify-content: initial;}
+
 .card__person--image, .card__person--share{
     width: 40px;
     height: 40px;
@@ -114,6 +121,7 @@ ul,li, body{
 .modal__container{
     padding-left: 30px;
     height: 100%;
+    justify-content: initial;
 }
 
 .modal__container--text{
@@ -127,6 +135,7 @@ ul,li, body{
     padding: 2px 0 0 10px;
     list-style: none;
     width: 35%;
+    justify-content: space-between;
 }
 
 .modal__container--share{
@@ -146,13 +155,6 @@ ul,li, body{
 .triangle{
     display: none;
 }
-
-.center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 
 @media screen and (min-width: 1024px){
     .card{
