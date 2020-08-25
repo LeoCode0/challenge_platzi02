@@ -15,7 +15,7 @@ body{
     overflow-x: hidden;
 }
 
-ul,li, body{
+ul,li, figure, body{
     margin: 0;
     padding: 0;
 }
