@@ -28,7 +28,7 @@ ul,li, figure, body{
 
 .card{
     background-color: #FFF;
-    height: 530px;
+    height: 600px;
     width: 330px;
     margin: 10vh auto;
     min-height: 525px;
@@ -58,13 +58,13 @@ ul,li, figure, body{
 }
 
 .card__text--principal{
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 700;
     color: var(--DarkGrayishBlue);
 }
 
 .card__text--secondary{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     color: var(--GrayishBlue);
 }
@@ -165,7 +165,7 @@ ul,li, figure, body{
     .card{
         display: flex;
         min-height: 230px;
-        height: 280px;
+        height: 300px;
         width: 660px;
         margin-top: 30vh;
     }
@@ -178,23 +178,24 @@ ul,li, figure, body{
 
     .card__container--img{
         border-radius: 15px 0 0 15px;
+        object-position: left;
     }
 
     .card__text{
-        margin: 0 20px 20px 0;
+        margin: 10px 20px;
     }
 
     .card__person{
         bottom: 20px;
-        width: 55%;
+        width: 50%;
     }
 
     .modal{
-        right: -45px;
-        width: 30%;
+        right: -6%;
+        width: 35%;
         height: 20%;
         border-radius: 10px;
-        bottom: 28%;
+        bottom: 26%;
     }
 
     .modal__container--list{
