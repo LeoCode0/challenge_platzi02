@@ -34,7 +34,7 @@ ul,li, figure, body{
     min-height: 525px;
     position: relative;
     font-size: 100%;
-    box-shadow: 0px 6px 38px -16px;
+    box-shadow: 0px 6px 38px var(--LightGrayishBlue);
     border-radius: 15px;
 }
 
@@ -57,16 +57,16 @@ ul,li, figure, body{
     margin: 30px auto 30px auto;
 }
 
-.card__text--principal, .card__text--secondary, .name {opacity: 0.85;}
-
 .card__text--principal{
     font-size: 17px;
     font-weight: 700;
+    color: var(--DarkGrayishBlue);
 }
 
 .card__text--secondary{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
+    color: var(--GrayishBlue);
 }
 
 .card__person{
@@ -94,12 +94,14 @@ ul,li, figure, body{
     margin: 0;
     font-weight: 700;
     font-size: 14px;
+    color: var(--DarkGrayishBlue);
 }
 
 .card__person--information .date{
     font-weight: 500;
     opacity: 0.6;
     font-size: 12px;
+    color: var(--DesaturatedDarkBlue);
 }
 
 .card__person--share{
@@ -163,8 +165,8 @@ ul,li, figure, body{
     .card{
         display: flex;
         min-height: 230px;
-        height: 240px;
-        width: 720px;
+        height: 280px;
+        width: 660px;
         margin-top: 30vh;
     }
 
@@ -188,11 +190,11 @@ ul,li, figure, body{
     }
 
     .modal{
-        right: -50px;
+        right: -45px;
         width: 30%;
         height: 20%;
         border-radius: 10px;
-        bottom: 30%;
+        bottom: 28%;
     }
 
     .modal__container--list{
